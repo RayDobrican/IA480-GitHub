@@ -1,0 +1,30 @@
+# TSLA Stock Price Prediction Report
+
+## Data Source
+The dataset used for this analysis was obtained from **Kaggle**. It contained detailed stock information for **TSLA (Tesla, Inc.)**, an American electric vehicle and clean energy company.
+
+## Research Question
+**What will be the price of TSLA on June 29th, 2025?**
+
+## Target Variable
+- **High** — the highest price TSLA reached during a trading day.
+
+## Predictor Variables
+Some key predictor variables used in the model included:
+- **Volume** — number of shares traded.
+- **Open** — the price of TSLA at market open.
+- **Close** — the price of TSLA at market close.
+
+## Data Cleaning
+No data cleaning was required, as the dataset contained no missing or faulty values.
+
+## Model Building
+A **Quick Build** was used to create the model, helping minimize AWS credit usage.
+
+## Model Performance
+- **R² Score**: **99%**  
+  The model performed extremely well in terms of explained variance.
+
+## Reflection
+While the regression model produced strong results, a **time series prediction model** would have likely been more suitable for predicting a future stock price on a specific date. A time-based model could have captured temporal trends and seasonal effects more effectively.
+
